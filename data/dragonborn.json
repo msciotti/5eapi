@@ -1,0 +1,54 @@
+{
+  "dragonborn": [
+    {
+      "type": "Black",
+      "damage type": "Acid",
+      "breath weapon": "5 by 30 ft. line (Dex. save)"
+    },
+    {
+      "type": "Blue",
+      "damage type": "Lightning",
+      "breath weapon": "5 by 30 ft. line (Dex. save)"
+    },
+    {
+      "type": "Brass",
+      "damage type": "Fire",
+      "breath weapon": "5 by 30 ft. line (Dex. save)"
+    },
+    {
+      "type": "Bronze",
+      "damage type": "Lightning",
+      "breath weapon": "5 by 30 ft. line (Dex. save)"
+    },
+    {
+      "type": "Copper",
+      "damage type": "Acid",
+      "breath weapon": "5 by 30 ft. line (Dex. save)"
+    },
+    {
+      "type": "Gold",
+      "damage type": "Fire",
+      "breath weapon": "15 ft. cone (Dex. save)"
+    },
+    {
+      "type": "Green",
+      "damage type": "Poison",
+      "breath weapon": "15 ft. cone (Con. save)"
+    },
+    {
+      "type": "Red",
+      "damage type": "Fire",
+      "breath weapon": "15 ft. cone (Dex. save)"
+    },
+    {
+      "type": "Silver",
+      "damage type": "Cold",
+      "breath weapon": "15 ft. cone (Con. save)"
+    },
+    {
+      "type": "White",
+      "damage type": "Cold",
+      "breath weapon": "15 ft. cone (Con. save)"
+    }
+  ]
+}

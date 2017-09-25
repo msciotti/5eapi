@@ -1,0 +1,222 @@
+{
+  "Barbarian": {
+    "Modifier": "CON",
+    "Hit Dice": "1d12",
+    "1st Level": "12",
+    "Higher Levels": ["1d12", "7"],
+    "Proficiencies": [
+      {"Armor": ["Light armor", "medium armor", "shields"]},
+      {"Weapons": ["Simple weapons", "martial weapons"]},
+      {"Tools": []},
+      {"Saving Throws": ["Strength", "Constitution"]},
+      {"Skills": ["Animal Handling", "Athletics", "Intimidation, Nature, Perception, and Survival"]}
+    ],
+    "Starting Equipment": [
+      "A greataxe or any martial melee weapon",
+      "Two handaxes or any simple weapon",
+      "An explorer’s pack and four javelins"
+    ],
+    "Levels": [
+      {
+        "1": {
+          "Proficiency": 2,
+          "Features": ["Rage", "Unarmored Defense"],
+          "Rages": {
+            "Number": 2,
+            "Damage": 2
+          }
+        }
+      },
+      {
+        "2": {
+          "Proficiency": 2,
+          "Features": ["Reckless Attack", "Danger Sense"],
+          "Rages": {
+            "Number": 2,
+            "Damage": 2
+          }
+        }
+      },
+      {
+        "3": {
+          "Proficiency": 2,
+          "Features": ["Primal Path"],
+          "Rages": {
+            "Number": 3,
+            "Damage": 2
+          }
+        }
+      },
+      {
+        "4": {
+          "Proficiency": 2,
+          "Features": ["Ability Score Improvement"],
+          "Rages": {
+            "Number": 3,
+            "Damage": 2
+          }
+        }
+      },
+      {
+        "5": {
+          "Proficiency": 3,
+          "Features": ["Extra Attack", "Fast Movement"],
+          "Rages": {
+            "Number": 3,
+            "Damage": 2
+          }
+        }
+      },
+      {
+        "6": {
+          "Proficiency": 3,
+          "Features": ["Path Feature"],
+          "Rages": {
+            "Number": 4,
+            "Damage": 2
+          }
+        }
+      },
+      {
+        "7": {
+          "Proficiency": 3,
+          "Features": ["Feral Instinct"],
+          "Rages": {
+            "Number": 4,
+            "Damage": 2
+          }
+        }
+      },
+      {
+        "8": {
+          "Proficiency": 3,
+          "Features": ["Ability Score Improvement"],
+          "Rages": {
+            "Number": 4,
+            "Damage": 2
+          }
+        }
+      },
+      {
+        "9": {
+          "Proficiency": 4,
+          "Features": ["Brutal Critical"],
+          "Rages": {
+            "Number": 4,
+            "Damage": 3
+          }
+        }
+      },
+      {
+        "10": {
+          "Proficiency": 4,
+          "Features": ["Path Feature"],
+          "Rages": {
+            "Number": 4,
+            "Damage": 3
+          }
+        }
+      },
+      {
+        "11": {
+          "Proficiency": 4,
+          "Features": ["Relentless"],
+          "Rages": {
+            "Number": 4,
+            "Damage": 3
+          }
+        }
+      },
+      {
+        "12": {
+          "Proficiency": 4,
+          "Features": ["Ability Score Improvement"],
+          "Rages": {
+            "Number": 5,
+            "Damage": 3
+          }
+        }
+      },
+      {
+        "13": {
+          "Proficiency": 5,
+          "Features": ["Brutal Critical"],
+          "Rages": {
+            "Number": 5,
+            "Damage": 3
+          }
+        }
+      },
+      {
+        "14": {
+          "Proficiency": 5,
+          "Features": ["Path Feature"],
+          "Rages": {
+            "Number": 5,
+            "Damage": 3
+          }
+        }
+      },
+      {
+        "15": {
+          "Proficiency": 5,
+          "Features": ["Persistent Rage"],
+          "Rages": {
+            "Number": 5,
+            "Damage": 3
+          }
+        }
+      },
+      {
+        "16": {
+          "Proficiency": 5,
+          "Features": ["Ability Score Improvement"],
+          "Rages": {
+            "Number": 5,
+            "Damage": 4
+          }
+        }
+      },
+      {
+        "17": {
+          "Proficiency": 6,
+          "Features": ["Brutal Critical"],
+          "Rages": {
+            "Number": 6,
+            "Damage": 4
+          }
+        }
+      },
+      {
+        "18": {
+          "Proficiency": 6,
+          "Features": ["Indomitable Might"],
+          "Rages": {
+            "Number": 6,
+            "Damage": 4
+          }
+        }
+      },
+      {
+        "19": {
+          "Proficiency": 6,
+          "Features": ["Ability Score Improvement"],
+          "Rages": {
+            "Number": 6,
+            "Damage": 4
+          }
+        }
+      },
+      {
+        "20": {
+          "Proficiency": 6,
+          "Features": ["Primal Champion"],
+          "Rages": {
+            "Number": 999999,
+            "Damage": 4
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "Bard": {
+    "Higher Levels": "1d8 (or 5)",
+    "Levels": [
+      {
+        "1": {
+          "Spells Known": "2",
+          "Features": "Spellcasting, Bardic Inspiration (d6)",
+          "Cantrips Known": "4"
+        }
+      },
+      {
+        "2": {
+          "Spells Known": "2",
+          "Features": "Jack of All Trades, Song of Rest (d6)",
+          "Cantrips Known": "5"
+        }
+      },
+      {
+        "3": {
+          "Spells Known": "2",
+          "Features": "Bard College, Expertise",
+          "Cantrips Known": "6"
+        }
+      },
+      {
+        "4": {
+          "Spells Known": "3",
+          "Features": "Ability Score Improvement",
+          "Cantrips Known": "7"
+        }
+      },
+      {
+        "5": {
+          "Spells Known": "3",
+          "Features": "Bardic Inspiration (d8), Font of Inspiration",
+          "Cantrips Known": "8"
+        }
+      },
+      {
+        "6": {
+          "Spells Known": "3",
+          "Features": "Countercharm, Bard College Feature",
+          "Cantrips Known": "9"
+        }
+      },
+      {
+        "7": {
+          "Spells Known": "3",
+          "Features": "-",
+          "Cantrips Known": "10"
+        }
+      },
+      {
+        "8": {
+          "Spells Known": "3",
+          "Features": "Ability Score Improvement",
+          "Cantrips Known": "11"
+        }
+      },
+      {
+        "9": {
+          "Spells Known": "3",
+          "Features": "Song of Rest (d8)",
+          "Cantrips Known": "12"
+        }
+      },
+      {
+        "10": {
+          "Spells Known": "4",
+          "Features": "Bardic Inspiration (d10), Expertise, Magical Secrets",
+          "Cantrips Known": "14"
+        }
+      },
+      {
+        "11": {
+          "Spells Known": "4",
+          "Features": "-",
+          "Cantrips Known": "15"
+        }
+      },
+      {
+        "12": {
+          "Spells Known": "4",
+          "Features": "Ability Score Improvement",
+          "Cantrips Known": "15"
+        }
+      },
+      {
+        "13": {
+          "Spells Known": "4",
+          "Features": "Song of Rest (d10)",
+          "Cantrips Known": "16"
+        }
+      },
+      {
+        "14": {
+          "Spells Known": "4",
+          "Features": "Magical Secrets, Bard College Feature",
+          "Cantrips Known": "18"
+        }
+      },
+      {
+        "15": {
+          "Spells Known": "4",
+          "Features": "Bardic Inspiration (d12)",
+          "Cantrips Known": "19"
+        }
+      },
+      {
+        "16": {
+          "Spells Known": "4",
+          "Features": "Ability Score Improvement",
+          "Cantrips Known": "19"
+        }
+      },
+      {
+        "17": {
+          "Spells Known": "4",
+          "Features": "Song of Rest (d12)",
+          "Cantrips Known": "20"
+        }
+      },
+      {
+        "18": {
+          "Spells Known": "4",
+          "Features": "Magical Secrets",
+          "Cantrips Known": "22"
+        }
+      },
+      {
+        "19": {
+          "Spells Known": "4",
+          "Features": "Ability Score Improvement",
+          "Cantrips Known": "22"
+        }
+      },
+      {
+        "20": {
+          "Spells Known": "4",
+          "Features": "Superior Inspiration",
+          "Cantrips Known": "22"
+        }
+      }
+    ],
+    "Hit Dice": "1d8",
+    "Proficiencies": {
+      "Armor": ["Light armor"],
+      "Weapons": ["Simple weapons", "hand crossbows", "longswords", "rapiers", "shortswords"],
+      "Skills": [],
+      "Tools": ["Three musical instruments of your choice"],
+      "Saving Throws": ["Dexterity", "Charisma"]
+    },
+    "First Level": "8",
+    "Modifier": "CHA",
+    "Starting Equipment": [
+      "a rapier, a longsword, or any simple weapon",
+      "a diplomat\u2019s pack or an entertainer\u2019s pack",
+      "a lute or any other musical instrument",
+      "Leather armor and a dagger"
+    ]
+  }
+}
