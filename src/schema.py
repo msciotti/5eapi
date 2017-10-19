@@ -1,30 +1,22 @@
 from flask import Flask
-from flask.ext.mysql import MySQL
+import json
 import graphene
 
 app = Flask(__name__)
 
+with open('data/races.json') as json_races:
+    races = json.load(json_races)
 
-class Spell(graphene.ObjectType):
-    id = graphene.ID()
-    name = graphene.String()
-    description = graphene.String()
-    range = graphene.String()
-    components = graphene.String()
-    higher_levels = graphene.String()
-    duration = graphene.String()
-    level = graphene.Int()
-    casting_time = graphene.String()
-    school = graphene.String()
+
+class Race(graphene.ObjectType):
+    traits = graphene.List(of_type=graphene.String)
 
 
 class Query(graphene.ObjectType):
-    spell = graphene.Field(Spell, name=graphene.String())
+    race = graphene.Field(Race)
 
-    def resolve_spell(self, info):
-        cursor.execute('select * from spells where name={}'.format(info.name))
-        raw = cursor.fetchone()
-        return raw
+    def resolve_race(self, info, name):
+        return name
 
 
 schema = graphene.Schema(query=Query)
