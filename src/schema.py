@@ -13,10 +13,11 @@ class Race(graphene.ObjectType):
 
 
 class Query(graphene.ObjectType):
-    race = graphene.Field(Race)
+    race = graphene.Field(type=Race)
 
-    def resolve_race(self, info, name):
-        return name
+    def resolve_race(self, info):
+        print('here')
+        return Race(traits=['meme', 'yup'])
 
 
 schema = graphene.Schema(query=Query)

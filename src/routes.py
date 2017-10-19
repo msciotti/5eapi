@@ -1,5 +1,6 @@
 from flask import Flask
 from schema import schema
+import json
 app = Flask(__name__)
 app.debug = True
 
@@ -12,12 +13,12 @@ def test():
 @app.route('/test_query')
 def race():
     query = '''
-      query getRace {
-        race(name: $name) {
+      query getRace{
+        race {
           traits
         }
       }
     '''
-    result = schema.execute(query, variable_values={'name': 'Dwarf'})
-    return result.data
+    result = schema.execute(query)
+    return json.dumps(result.data, indent=4)
 
